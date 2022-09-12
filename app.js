@@ -20,8 +20,4 @@ app.get('/puzzles', (req, res)=>{
     res.render('puzzles.ejs');
 })
 
-app.get('/play', (req, res)=>{
-    res.render('play.ejs');
-})
-
 app.listen(3000);
